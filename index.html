@@ -4,19 +4,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <link rel="stylesheet" href="./css/main.css">
 <title>Home Rental</title>
 </head>
 <body>
 <!-- Hero section -->
 <section class="h-screen bg-center bg-cover bg-blend-overlay bg-black/20" style="background-image: url('./img/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.svg');">
    <!-- Nav Bar -->
-<div class="flex items-center h-20 border-b border-gray-300 ">
+<!-- <div class="container flex items-center h-20 border-b border-gray-300  bg-black w-auto">
   <div class="mx-auto relative px-5 max-w-screen-xl w-full flex items-center justify-center space-x-96 ">
-    <img src="./img/logo 1.svg">
+    <img src="./img/logo 1.svg"> -->
 
     <!-- Nav Menu -->
-    <nav class="flex space-x-8 text-slate-200 ">
+    <!-- <nav class="flex space-x-8 text-slate-200 ">
       <a href="#">Home</a> 
       <a href="#">Landloard</a> 
       <a href="#">Tenants</a> 
@@ -25,7 +26,25 @@
 
   </div>
 
-</div>
+</div> -->
+
+
+<nav class="relative container mx-auto p-6 ">
+  <!-- Flex container -->
+  <div class="flex items-center justify-start space-x-44 border-b border-gray-300">
+    <!-- Logo -->
+    <div class=" pb-4">
+    <img src="./img/logo 1.svg">
+    </div>
+    <!-- Menu Items -->
+    <div class="hidden md:flex space-x-10 text-slate-200">
+      <a href="#" class="hover:underline underline-offset-8">Home</a> 
+      <a href="#" class="hover:underline underline-offset-8">Landloard</a> 
+      <a href="#" class="hover:underline underline-offset-8">Tenants</a> 
+      <a href="#" class="hover:underline underline-offset-8">Contant Us</a> 
+    </div>
+  </div>
+</nav>
 
 <!-- Hero section Content -->
 <div class="flex flex-row space-x-24">
@@ -51,8 +70,575 @@
 </div>
 </div>
 </section>
-<section class="bg-slate-50 h-screen">
+<!-- Information section -->
+<section class="bg-white">
+  <div class="flex justify-items-center pt-16 ml-36">
+    <h1 class="capitalize text-3xl font-bold "><span class="underline underline-offset-8 decoration-[#F4511E]">minimum living cost</span> takes care of everything</h1>  
+  </div>
+  <div class="pt-10 ml-24 flex flex-row">
+    <img src="./img/section2pic.jpg" alt="">
+    <div class="pt-28 grid grid-cols-3 gap-2">
+      <div>
+      <img class="bg-[#ffffff] p-3.5 rounded-md drop-shadow-2xl" src="./img/Vector.png">
+      <div class="pt-3">
+        <h1 class="capitalize font-bold text-lg">pay as little<br> as possible!</h1>
+      </div>
+      </div>
+      <div >
+        <img class="bg-[#ffffff] p-3.5 rounded-md drop-shadow-2xl" src="./img/Vector(1).png">
+        <div class="pt-3">
+          <h1 class="capitalize font-bold text-lg">enjoy wisdom<br> of community!</h1>
+        </div>
+        </div>
+        <div>
+          <img class="bg-[#ffffff] p-3.5 rounded-md drop-shadow-2xl" src="./img/Vector(2).png">
+          <div class="pt-3">
+            <h1 class="capitalize font-bold text-lg">let's somebody else<br> take care of landloard!</h1>
+          </div>
+          </div>
+          <div>
+            <img class="bg-[#ffffff] p-3.5 rounded-md drop-shadow-2xl" src="./img/Vector(3).png">
+            <div class="pt-3">
+              <h1 class="capitalize font-bold text-lg">enjoy peaceful<br> environment!</h1>
+            </div>
+            </div>
+            <div>
+              <img class="bg-[#ffffff] p-3.5 rounded-md drop-shadow-2xl" src="./img/Vector(4).png">
+              <div class="pt-3">
+                <h1 class="capitalize font-bold text-lg">stay safe!<br> save money!</h1>
+              </div>
+              </div>
+              <div>
+                <img class="bg-[#ffffff] p-3.5 rounded-md drop-shadow-2xl" src="./img/Vector(5).png">
+                <div class="pt-3">
+                  <h1 class="capitalize font-bold text-lg">pay for what<br> you use!</h1>
+                </div>
+                </div>
+    </div>
+  </div>
+</section>
+<!-- List of Properties section -->
+<section class="bg-[#F5F5F5] h-max">
+  <div class="container flex flex-col mx-auto">
+    <div class="flex flex-row justify-between mt-10 ">
+      <div>
+      <h1 class="text-3xl font-bold capitalize"><span class="underline underline-offset-8 decoration-[#F4511E]">list</span> of properties</h1>
+      </div>
+      <div>
+      <button class="text-white bg-[#F4511E] p-3 rounded-md px-8  ">View All Property</button>
+      </div>
+    </div>
+      
+        <div class="grid grid-cols-3 gap-3">
+    
+      <div class="pt-10  w-72 " >
+        <div>
+          <img src="./img/product1.jpg" />
+        </div>
+        <!-- Details -->
+        <div class="border bg-white p-4  ">
+          <h1 class="font-bold capitalize text-lg">
+            2578 folsom street, san,<br> francisco, CA, 941100
+          </h1>
+          <p class="font-semibold text-gray-400 capitalize pt-3 text-sm">
+            private room
+          </p>
+          <!-- price -->
+          <h1 class="font-bold text-[#f4511e] text-xl">
+            $1200/Month
+          </h1>
+        </div>
+        <!-- bottom details -->
+        <div class="rounded-b-xl   grid grid-cols-3  border bg-white ">
+          <!-- First portion -->
+          <div class="flex flex-row p-3 ">
+            <img src="./img/Shape.png"  class=""/>
+          <p class="font-bold text-lg ml-2">4</p>
+          </div>
+          <!-- Middle portion -->
+          <div class="flex flex-row  border p-3">
+            <img src="./img/Shape.png"  class=""/>
+          <p class="font-bold text-lg ml-2">4</p>
+          </div>
+          <!-- Last portion -->
+          <div class="flex flex-row p-3">
+            <img src="./img/Shape.png"  class=""/>
+          <p class="font-bold text-lg ml-2">4</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-10  w-72 " >
+        <div>
+          <img src="./img/product2.jpg" />
+        </div>
+        <!-- Details -->
+        <div class="border bg-white p-4  ">
+          <h1 class="font-bold capitalize text-lg">
+            2578 folsom street, san,<br> francisco, CA, 941100
+          </h1>
+          <p class="font-semibold text-gray-400 capitalize pt-3 text-sm">
+            private room
+          </p>
+          <!-- price -->
+          <h1 class="font-bold text-[#f4511e] text-xl">
+            $1200/Month
+          </h1>
+        </div>
+        <!-- bottom details -->
+        <div class="rounded-b-xl   grid grid-cols-3  border bg-white ">
+          <!-- First portion -->
+          <div class="flex flex-row p-3 ">
+            <img src="./img/Shape.png"  class=""/>
+          <p class="font-bold text-lg ml-2">4</p>
+          </div>
+          <!-- Middle portion -->
+          <div class="flex flex-row  border p-3">
+            <img src="./img/Shape.png"  class=""/>
+          <p class="font-bold text-lg ml-2">4</p>
+          </div>
+          <!-- Last portion -->
+          <div class="flex flex-row p-3">
+            <img src="./img/Shape.png"  class=""/>
+          <p class="font-bold text-lg ml-2">4</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-10  w-72 " >
+        <div>
+          <img src="./img/product3.jpg" />
+        </div>
+        <!-- Details -->
+        <div class="border bg-white p-4  ">
+          <h1 class="font-bold capitalize text-lg">
+            2578 folsom street, san,<br> francisco, CA, 941100
+          </h1>
+          <p class="font-semibold text-gray-400 capitalize pt-3 text-sm">
+            private room
+          </p>
+          <!-- price -->
+          <h1 class="font-bold text-[#f4511e] text-xl">
+            $1200/Month
+          </h1>
+        </div>
+        <!-- bottom details -->
+        <div class="rounded-b-xl   grid grid-cols-3  border bg-white ">
+          <!-- First portion -->
+          <div class="flex flex-row p-3 ">
+            <img src="./img/Shape.png"  class=""/>
+          <p class="font-bold text-lg ml-2">4</p>
+          </div>
+          <!-- Middle portion -->
+          <div class="flex flex-row  border p-3">
+            <img src="./img/Shape.png"  class=""/>
+          <p class="font-bold text-lg ml-2">4</p>
+          </div>
+          <!-- Last portion -->
+          <div class="flex flex-row p-3">
+            <img src="./img/Shape.png"  class=""/>
+          <p class="font-bold text-lg ml-2">4</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-10 w-72 " >
+        <div>
+          <img src="./img/product4.jpg" />
+        </div>
+        <!-- Details -->
+        <div class="border bg-white p-4  ">
+          <h1 class="font-bold capitalize text-lg">
+            2578 folsom street, san,<br> francisco, CA, 941100
+          </h1>
+          <p class="font-semibold text-gray-400 capitalize pt-3 text-sm">
+            private room
+          </p>
+          <!-- price -->
+          <h1 class="font-bold text-[#f4511e] text-xl">
+            $1200/Month
+          </h1>
+        </div>
+        <!-- bottom details -->
+        <div class="rounded-b-xl   grid grid-cols-3  border bg-white ">
+          <!-- First portion -->
+          <div class="flex flex-row p-3 ">
+            <img src="./img/Shape.png"  class=""/>
+          <p class="font-bold text-lg ml-2">4</p>
+          </div>
+          <!-- Middle portion -->
+          <div class="flex flex-row  border p-3">
+            <img src="./img/Shape.png"  class=""/>
+          <p class="font-bold text-lg ml-2">4</p>
+          </div>
+          <!-- Last portion -->
+          <div class="flex flex-row p-3">
+            <img src="./img/Shape.png"  class=""/>
+          <p class="font-bold text-lg ml-2">4</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="pt-10  w-72 " >
+        <div>
+          <img src="./img/product5.jpg" />
+        </div>
+        <!-- Details -->
+        <div class="border bg-white p-4  ">
+          <h1 class="font-bold capitalize text-lg">
+            2578 folsom street, san,<br> francisco, CA, 941100
+          </h1>
+          <p class="font-semibold text-gray-400 capitalize pt-3 text-sm">
+            private room
+          </p>
+          <!-- price -->
+          <h1 class="font-bold text-[#f4511e] text-xl">
+            $1200/Month
+          </h1>
+        </div>
+        <!-- bottom details -->
+        <div class="rounded-b-xl   grid grid-cols-3  border bg-white ">
+          <!-- First portion -->
+          <div class="flex flex-row p-3 ">
+            <img src="./img/Shape.png"  class=""/>
+          <p class="font-bold text-lg ml-2">4</p>
+          </div>
+          <!-- Middle portion -->
+          <div class="flex flex-row  border p-3">
+            <img src="./img/Shape.png"  class=""/>
+          <p class="font-bold text-lg ml-2">4</p>
+          </div>
+          <!-- Last portion -->
+          <div class="flex flex-row p-3">
+            <img src="./img/Shape.png"  class=""/>
+          <p class="font-bold text-lg ml-2">4</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-10  w-72 " >
+        <div>
+          <img src="./img/product6.jpg" />
+        </div>
+        <!-- Details -->
+        <div class="border bg-white p-4  ">
+          <h1 class="font-bold capitalize text-lg">
+            2578 folsom street, san,<br> francisco, CA, 941100
+          </h1>
+          <p class="font-semibold text-gray-400 capitalize pt-3 text-sm">
+            private room
+          </p>
+          <!-- price -->
+          <h1 class="font-bold text-[#f4511e] text-xl">
+            $1200/Month
+          </h1>
+        </div>
+        <!-- bottom details -->
+        <div class="rounded-b-xl   grid grid-cols-3  border bg-white ">
+          <!-- First portion -->
+          <div class="flex flex-row p-3 ">
+            <img src="./img/Shape.png"  class=""/>
+          <p class="font-bold text-lg ml-2">4</p>
+          </div>
+          <!-- Middle portion -->
+          <div class="flex flex-row  border p-3">
+            <img src="./img/Shape.png"  class=""/>
+          <p class="font-bold text-lg ml-2">4</p>
+          </div>
+          <!-- Last portion -->
+          <div class="flex flex-row p-3">
+            <img src="./img/Shape.png"  class=""/>
+          <p class="font-bold text-lg ml-2">4</p>
+          </div>
+        </div>
+      </div>
+
+
+        </div>
+
+    </div>
+    
+
+  <div class=" container flex justify-center pt-12 pb-12">
+    <div class="bg-white p-4 space-x-4 rounded-md border text-[#f4511e] font-bold ">
+      <button class="text-gray-400">First</button>
+      <button>1</button>
+      <button class="hover:bg-[#f4511e]  hover:text-white">2</button>
+      <button>3</button>
+      <button>Next</button>  
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Search Room -->
+<section class="bg-white ">
+  <!-- <div class="flex flex-row space-between">
+  <div class="flex flex-col items-start mx-auto">
+    <div class="flex pt-20 ml-0 space-x-5">
+      <img src="./img/image 1.jpg" alt="">
+      <img src="./img/Image 2.png" class="pt-20 w-64">
+    </div>
+
+    <div class="flex pt-4 ml-5 space-x-5">
+      <img src="./img/image 3.png" class="w-48 h-1/2">
+      <img src="./img/Image 4.png" class="">
+    </div>
+  </div> -->
+  <!-- <div class="flex flex-col mr-52 pt-64">
+    <div class="flex items-left">
+    <h1 class="text-3xl text-center font-bold"> Flexibility and options<br> to suit your lifestyle.</h1>
+    </div>
+    <div class="flex items-center">
+    <p>You need it? We goit. We male finding your next home easy, comfortable, and simple. From our happiness guarantee to our selective roommate finder option. We provide you the flexibility that you most desire.</p>
+    </div>
+    
+  </div>
+  </div> -->
+
+  <!-- Flex Container -->
+  <div class="container flex flex-row items-center px-6 mx-auto mt-10 space-y-0 space-x-20">
+
+    <!-- left item -->
+    <div class="flex flex-col mb-3 space-y-1">
+      <div class="flex pt-20 ml-0 space-x-5">
+        <img src="./img/image 1.jpg" alt="">
+        <img src="./img/Image 2.png" class="pt-20 w-64">
+      </div>
+  
+      <div class="flex pt-4 ml-1 space-x-5">
+        <img src="./img/image 3.png" class="w-48 h-1/2">
+        <img src="./img/Image 4.png" class="">
+      </div>
+    </div>
+    <!-- right items -->
+    <div class="flex flex-col space-y-3">
+     <div class="">
+      <h1 class="text-3xl text-left font-bold"> Flexibility and options<br> to suit your lifestyle.</h1>
+      </div>
+        
+      <div class="">
+        <p>You need it? We got it. We make finding your next <br>
+           home easy, comfortable, and simple. From our<br>
+           happiness guarantee to our selective roommate<br>
+           finder option. We provide you the flexibility that you<br>
+           most desire.</p>
+        </div>  
+
+        <!-- button -->
+        <div>
+          <button class="text-white bg-[#f4511e] py-2 px-4 mt-3 rounded-md shadow-lg">
+            Search Rooms
+          </button>
+        </div>
+      </div>
+  </div>
+  <div>
+    <h1 class="capitalize text-lg font-semibold text-center mt-10">your property with us and be confident that your room will be filled our!</h1>
+  </div>
+</section>
+
+<!-- Form -->
+<section>
+  <div class="container mx-auto bg-white mt-10 border rounded-md w-9/12 mb-5 shadow-lg">
+    <h1 class="capitalize text-lg font-bold text-[#f4511e] text-center mt-4 mb-8">add a new property</h1>
+
+    <form action="#">
+      <div class="grid grid-cols-3 gap-2 ml-14 mb-3 ">
+       <label> <span class="font-semibold">Name</span> <span class="text-red-600">*</span><br><input type="text" placeholder="Enter Name" class="border border-gray-400 py-2 px-4 rounded-sm bg-gray-200" ></label>
+        <label><span class="font-semibold">Address</span> <span class="text-red-600">*</span><br><input type="text" placeholder="Enter Address" class="border border-gray-400 py-2 px-4 rounded-sm bg-gray-200" ></label>
+        <label> <span class="font-semibold">Number</span>  <span class="text-red-600">*</span><br><input type="text" placeholder="Enter Units" class="border border-gray-400 py-2 px-4 rounded-sm bg-gray-200" ></label>
+      </div>
+      <div class="grid grid-cols-3 gap-2 ml-14 mb-3">
+        <label> <span class="font-semibold">City</span> <span class="text-red-600">*</span><br><input type="text" placeholder="Select City" class="border border-gray-400 py-2 px-4 rounded-sm bg-gray-200" ></label>
+         <label><span class="font-semibold">State</span><span class="text-red-600">*</span><br><input type="text" placeholder="Select State" class="border border-gray-400 py-2 px-4 rounded-sm bg-gray-200" ></label>
+         <label><span class="font-semibold">Room Type</span> <span class="text-red-600">*</span><br><input type="text" placeholder="Select Room Type" class="border border-gray-400 py-2 px-4 rounded-sm bg-gray-200" ></label>
+       </div>
+       <div class="grid grid-cols-3 gap-2 ml-14 mb-3">
+        <label> <span class="font-semibold">Price</span> <span class="text-red-600">*</span><br><input type="text" placeholder="Enter Price" class="border border-gray-400 py-2 px-4 rounded-sm bg-gray-200" ></label>
+        <label><span class="font-semibold">Type</span><span class="text-red-600">*</span><br><input type="text" placeholder="Select Room Type" class="border border-gray-400 py-2 px-4 rounded-sm bg-gray-200" ></label> 
+       </div>
+       <div class="mx-14 mb-3 ">
+         <span class="font-semibold">Description</span> <span class="text-red-600">*</span><br><textarea  placeholder="Enter Description" class="border border-gray-400 w-full py-2 px-4 rounded-sm bg-gray-200 " ></textarea>
+       </div>
+       <!-- File Upload -->
+       
+<!-- <div class="flex items-center justify-center w-full">
+  <label  class="flex flex-col items-center justify-center w-full h-64 border-2 border-[#f4511e] border-dashed rounded-lg cursor-pointer bg-gray-50 ">
+      <div class="flex flex-col items-center justify-center pt-5 pb-6">
+          <p class="mb-2 text-sm text-gray-500"><span class="font-bold">Drag your image here, or</span><span class="text-[#f4511e] font-bold"> browse</span></p>
+          <p class="text-xs text-gray-500 ">supported: JPG,JPEG,PNG</p>
+      </div>
+      <input  type="file" class="hidden" />
+  </label>
+</div>  -->
+
+  <div class="mx-14 mb-3">
+    
+    
+      
+      <span class="font-semibold">Upload photos</span><br>
+      <div class="flex flex-col items-center justify-center border-dashed border border-[#f4511e] rounded-md pt-5 pb-6">
+      <p class="mb-2">Drag your image here, or</span><span class="text-[#f4511e] font-bold"> browse</span></p><br>
+      <p class="">supported: JPG,JPEG,PNG</p><br>
+      <input type="file" class="hidden mt-2">
+      </div>
+    
+
+  </div>
+    
+    <div class="flex justify-center items-center  ">
+      <button class="text-white font-semibold py-3 px-24 bg-[#f4511e] rounded-md mt-5 mb-8">Add New Property</button>
+    </div>
+    </form>
+
+
+
+  </div>
+</section>
+
+<!-- Testimonies section -->
+<section>
+  <!-- <div class="w-full h-[590px] bg-[#ffe8cc] mt-20 mb-20">
+    <div style="background-image: url('./img/cover.jpg');" class="w-full h-full bg-no-repeat bg-right bg-blend-overlay bg-black/10">
+      <div class="w-1/2 h-full justify-end items-center ml-auto">
+        <img src="./img/button.button.btn.primary-color.btn-circle.btn-lg.png" class="ml-60 py-60">
+      </div>
+    </div>
+     <div class="container mx-auto  justify- items-center h-48 ">
+      <img src="./img/“.png">
+      
+     </div>
+  </div> -->
+
+  <div class="flex flex-row w-full h-[596px] mt-20 mb-20">
+    <!-- Right div -->
+    <div class="flex flex-col w-1/2 h-[596px] bg-[#ffe8cc]/50">
+      <div class="flex justify-center items-center ml-12 mr-5 mt-28 bg-no-repeat" style="background-image: url('./img/“.png');">
+        <p class="text-lg mt-10 ml-5">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam 
+          interdum nisl et nunc facilisis, a commodo eros mollis. Nunc vel
+          pellentesque est. Curabitur at odiosit amet libero vulputate
+          efficitur ac nec justo. Nulla vitae mauris quam. Nulla quam
+          massa, faucibus id pretium ac, mattis eu velit. Donec sed risus 
+          a lacus fringilla finibus.
+        </p>
+      </div>
+        <div class="flex mt-10 ml-16">
+          <img src="./img/Ellipse 4.png">
+          <div class="flex flex-col">
+          <h1 class="text-lg font-bold text-[#f4511e] ml-5">Harry Wilson</h1>
+          <p class="ml-5">Property Owner</p>
+          </div>
+        </div>
+
+        <div class="mt-16 ml-16">
+          <button class="w-2 h-2 rounded-full bg-[#f4511e]"></button>
+          <button class="w-2 h-2 rounded-full bg-gray-400"></button>
+          <button class="w-2 h-2 rounded-full bg-gray-400"></button>
+        </div>
+
+    </div>
+
+    <!-- Left div -->
+    <div class="flex w-1/2 h-[596px] bg-cover bg-blend-overlay bg-black/30 " style="background-image: url('./img/cover.jpg');">
+
+      <div class="flex justify-center items-center mx-auto">
+        <button>
+          <img src="./img/button.button.btn.primary-color.btn-circle.btn-lg.png">
+        </button>
+        
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<!-- Footer Section -->
+<section>
+  <div class="container flex justify-center items-center mx-auto mt-40 border-t-2 border-[#f4511e] mb-10">
+    <div class="flex flex-row justify-between space-x-96">
+      <!-- Logo -->
+      <div class="mt-20">
+        <h1 class="font-bold text-4xl">
+          LOGO
+        </h1>
+      </div>
+      <!-- Contacts -->
+      <div class="mt-20">
+        <div class="flex space-x-4">
+        <img src="./img/loc.png" alt=""> 
+        <p>345 Faulconer Drive, Suite 4 . Charlottesville,CA, 12345</p>
+         </div> 
+         <div class="mt-5">
+          <div class="flex flex-row space-x-36">
+            <div class="flex space-x-4">
+              <img src="./img/Path.png" alt="">
+              <p>(123)456-7890</p>
+            </div>
+            <div class="flex space-x-4">
+              <img src="./img/Shape(1).png" alt="">
+              <p>(123)456-7890</p>
+            </div>
+          </div>
+         </div>
+
+         <div class="mt-5">
+          <div class="flex flex-row space-x-8">
+            <div class="flex">
+              <p class="font-light text-gray-400">Social Media</p>
+            </div>
+            <div>
+              <a href="#"><img src="./img/Facebook.png" alt=""></a>
+            </div>
+            <div>
+              <a href="#"><img src="./img/Twitter.png" alt=""></a>
+            </div>
+            <div>
+              <a href="#"><img src="./img/LinkedIn.png" alt=""></a>
+            </div>
+            <div>
+              <a href="#"><img src="./img/Youtube-path.png" alt=""></a>
+            </div>
+            <div>
+              <a href="#"><img src="./img/instagram black.1.png" alt=""></a>
+            </div>
+            <div>
+              <img src="./img/pinterest color.1.png" alt="">
+            </div>
+            <div>
+              <a href="#"><img src="./img/rss black.1.png " alt=""></a>
+            </div>
+          </div>
+         </div>
+      </div>
+
+    </div>
+  </div>
+<!-- Footer nav -->
+<div class="container flex justify-center items-center mx-auto w-[897px] border-t-2 border-gray-200 mb-16">
+  <div class="flex justify-center mt-6 space-x-8">
+    <div>
+     <nav class="flex space-x-4">
+      <a href="#">ABOUT US</a>
+      <a href="#">CONTACT US</a>
+      <a href="#">HELP</a>
+      <a href="#">PRIVACY POLICY</a>
+      <a href="#">DISLAIMER</a>
+     </nav>
+    </div>
+    <div>
+      <p class="text-sm text-gray-400">Copyright &copy; 2020 MinimumLivingCost. All Rights Reserved</p>
+    </div>
+    <div>
+
+    </div>
+
+  </div>
+
+</div>
 
 </section>
+
 </body>
 </html>
